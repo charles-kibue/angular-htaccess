@@ -5,6 +5,6 @@ angular-htaccess
 
 Additional Notes
 
-1. <base href="/" > inside <head> before importing external (local) stylesheets and javascript files the above is required if deep linking
+1. base href="/" goes inside the HEAD tag before importing external (local) stylesheets and script files. Required for deep linking
 
 2. in the module configuration, set html5mode to TRUE i.e. $locationProvider.html5Mode(true).hashPrefix('!');
